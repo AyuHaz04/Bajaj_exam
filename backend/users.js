@@ -13,14 +13,14 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
   try {
     const { data } = req.body;
-    // Use john doe and 17091999 as default for demonstration
-    const fullName = "john doe";
-    const dob = "17091999";
+    
+    const fullName = "Ayush Hazra";
+    const dob = "11022004";
     const response = {
       is_success: true,
       user_id: `${fullName.replace(/\s+/g, '_').toLowerCase()}_${dob}`,
-      email: "john@xyz.com",
-      roll_number: "ABCD123",
+      email: "Ayush@xyz.com",
+      roll_number: "22BEC0928",
       odd_numbers: [],
       even_numbers: [],
       alphabets: [],
